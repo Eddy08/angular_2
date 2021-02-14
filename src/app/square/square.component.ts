@@ -11,6 +11,8 @@ import { Component, Input } from '@angular/core';
   styles: [
   ]
 })
+
+// Dumb Component  --> It states Changes from Parent 
 export class SquareComponent {
 
   randomNumber=Math.floor(Math.random()*10);
