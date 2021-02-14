@@ -8,7 +8,7 @@ import { SquareComponent } from './square/square.component';
 @NgModule({
   declarations: [
     AppComponent,
-    SquareComponent
+    SquareComponent,
   ],
   imports: [
     BrowserModule,
