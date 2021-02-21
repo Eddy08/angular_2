@@ -3,12 +3,13 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-square',
   template: `
-    <p>
+    <!-- <p>
     {{randomClock}} {{randomNumber}}
-    </p>
-    <button>{{value}}</button>
+    </p> -->
+    <button><h1>{{value}}</h1></button>
   `,
   styles: [
+  'h1{font-size:5em;}','button{height:200px;width:200px}'
   ]
 })
 
