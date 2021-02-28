@@ -6,7 +6,12 @@ import { Component, Input } from '@angular/core';
     <!-- <p>
     {{randomClock}} {{randomNumber}}
     </p> -->
-    <button><h1>{{value}}</h1></button>
+    <button nbButton *ngIf="!value"><h1>{{value}}</h1></button>
+    <button nbButton hero status="success" *ngIf="value=='❌'"><h1>{{value}}</h1></button>
+    <button nbButton hero status="info" *ngIf="value=='⭕'"><h1>{{value}}</h1></button>
+    
+    
+
   `,
   styles: [
   'h1{font-size:5em;}','button{height:200px;width:200px}'
